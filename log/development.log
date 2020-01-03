@@ -1,0 +1,1282 @@
+Started GET "/" for ::1 at 2020-01-03 10:53:38 +0530
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "twitter_app_development" does not exist
+):
+  
+activerecord (6.0.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:50:in `rescue in postgresql_connection'
+activerecord (6.0.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:33:in `postgresql_connection'
+activerecord (6.0.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:889:in `new_connection'
+activerecord (6.0.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:933:in `checkout_new_connection'
+activerecord (6.0.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:912:in `try_to_checkout_new_connection'
+activerecord (6.0.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:873:in `acquire_connection'
+activerecord (6.0.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:595:in `checkout'
+activerecord (6.0.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:439:in `connection'
+activerecord (6.0.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1121:in `retrieve_connection'
+activerecord (6.0.2.1) lib/active_record/connection_handling.rb:238:in `retrieve_connection'
+activerecord (6.0.2.1) lib/active_record/connection_handling.rb:206:in `connection'
+activerecord (6.0.2.1) lib/active_record/migration.rb:562:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/favicon.ico" for ::1 at 2020-01-03 10:53:38 +0530
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "twitter_app_development" does not exist
+):
+  
+activerecord (6.0.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:50:in `rescue in postgresql_connection'
+activerecord (6.0.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:33:in `postgresql_connection'
+activerecord (6.0.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:889:in `new_connection'
+activerecord (6.0.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:933:in `checkout_new_connection'
+activerecord (6.0.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:912:in `try_to_checkout_new_connection'
+activerecord (6.0.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:873:in `acquire_connection'
+activerecord (6.0.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:595:in `checkout'
+activerecord (6.0.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:439:in `connection'
+activerecord (6.0.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1121:in `retrieve_connection'
+activerecord (6.0.2.1) lib/active_record/connection_handling.rb:238:in `retrieve_connection'
+activerecord (6.0.2.1) lib/active_record/connection_handling.rb:206:in `connection'
+activerecord (6.0.2.1) lib/active_record/migration.rb:562:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  [1m[35m (1076.7ms)[0m  [1m[35mCREATE DATABASE "twitter_app_development" ENCODING = 'unicode'[0m
+  [1m[35m (734.6ms)[0m  [1m[35mCREATE DATABASE "twitter_app_test" ENCODING = 'unicode'[0m
+Started GET "/" for ::1 at 2020-01-03 10:56:49 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/escale/.rvm/gems/ruby-2.6.0@twitter-app/gems/railties-6.0.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/escale/.rvm/gems/ruby-2.6.0@twitter-app/gems/railties-6.0.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 19.3ms | Allocations: 316)
+Completed 200 OK in 23ms (Views: 21.2ms | ActiveRecord: 0.0ms | Allocations: 1598)
+
+
+Started GET "/favicon.ico" for ::1 at 2020-01-03 10:56:50 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  [1m[35m (136.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (93.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4693523171916063030)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to DeviseCreateUsers (20200103053227)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (105.5ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (27.9ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")[0m
+  [1m[35m (46.9ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users"  ("reset_password_token")[0m
+  [1m[36mprimary::SchemaMigration Create (0.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200103053227"]]
+  [1m[35m (7.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (7.0ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-01-03 05:33:50.436271"], ["updated_at", "2020-01-03 05:33:50.436271"]]
+  [1m[35m (31.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(4693523171916063030)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4693523171916063030)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddColumnsToUsers (20200103055817)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "users" ADD "phone" character varying[0m
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "users" ADD "name" character varying[0m
+  [1m[36mprimary::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200103055817"]]
+  [1m[35m (11.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(4693523171916063030)[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "//signup" for ::1 at 2020-01-03 11:42:09 +0530
+  
+ArgumentError (Invalid route name, already in use: 'new_user_session' 
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+https://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
+  
+config/routes.rb:7:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started POST "//signup" for ::1 at 2020-01-03 11:43:44 +0530
+  [1m[35m (52.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (uninitialized constant RegistrationsController):
+  
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:282:in `const_get'
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:282:in `block in constantize'
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:280:in `each'
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:280:in `inject'
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:280:in `constantize'
+activesupport (6.0.2.1) lib/active_support/dependencies/zeitwerk_integration.rb:19:in `constantize'
+actionpack (6.0.2.1) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (6.0.2.1) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:45:in `controller'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/routing/mapper.rb:18:in `block in <class:Constraints>'
+actionpack (6.0.2.1) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.0.8) lib/rack/etag.rb:25:in `call'
+rack (2.0.8) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.8) lib/rack/head.rb:12:in `call'
+activerecord (6.0.2.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "//signup" for ::1 at 2020-01-03 11:46:33 +0530
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RegistrationsController#create as JSON
+  Parameters: {"user"=>{"email"=>"akash.d@gmail.com", "name"=>"akash", "password"=>"[FILTERED]", "password_confiramtion"=>"[FILTERED]", "phone"=>"9876543210"}}
+[31mUnpermitted parameter: :password_confiramtion[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/registrations_controller.rb:5:in `create'
+  [1m[36mUser Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "akash.d@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/registrations_controller.rb:5:in `create'
+  [1m[36mUser Create (23.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "phone", "name") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "akash.d@gmail.com"], ["encrypted_password", "$2a$11$GIWcZhafb8K36X7xZZRDp.Uzd0XoJewiRO5fVGpA7V04.kzhc8KLS"], ["created_at", "2020-01-03 06:16:33.518607"], ["updated_at", "2020-01-03 06:16:33.518607"], ["phone", "9876543210"], ["name", "akash"]]
+  ↳ app/controllers/registrations_controller.rb:5:in `create'
+  [1m[35m (365.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/registrations_controller.rb:5:in `create'
+Completed 200 OK in 596ms (Views: 1.1ms | ActiveRecord: 394.9ms | Allocations: 12319)
+
+
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Started POST "//login" for ::1 at 2020-01-03 11:48:29 +0530
+  
+SyntaxError (/home/escale/workspace/twitter-app/app/controllers/sessions_controller.rb:6: syntax error, unexpected ':', expecting '}'
+     	render json {data: user.token, message: "Succes...
+     	                 ^
+/home/escale/workspace/twitter-app/app/controllers/sessions_controller.rb:6: syntax error, unexpected tLABEL, expecting '='
+...son {data: user.token, message: "Successfully login"}
+...                       ^~~~~~~~
+/home/escale/workspace/twitter-app/app/controllers/sessions_controller.rb:6: syntax error, unexpected '}', expecting end
+... message: "Successfully login"}
+...                              ^
+/home/escale/workspace/twitter-app/app/controllers/sessions_controller.rb:8: syntax error, unexpected ':', expecting '}'
+    	render json {message: "Invalid Email or Password"}
+    	                    ^
+/home/escale/workspace/twitter-app/app/controllers/sessions_controller.rb:8: syntax error, unexpected '}', expecting end
+...e: "Invalid Email or Password"}
+...                              ^
+/home/escale/workspace/twitter-app/app/controllers/sessions_controller.rb:18: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/sessions_controller.rb:6: syntax error, unexpected ':', expecting '}'
+app/controllers/sessions_controller.rb:6: syntax error, unexpected tLABEL, expecting '='
+app/controllers/sessions_controller.rb:6: syntax error, unexpected '}', expecting end
+app/controllers/sessions_controller.rb:8: syntax error, unexpected ':', expecting '}'
+app/controllers/sessions_controller.rb:8: syntax error, unexpected '}', expecting end
+app/controllers/sessions_controller.rb:18: syntax error, unexpected end-of-input, expecting end
+app/controllers/sessions_controller.rb:6: syntax error, unexpected ':', expecting '}'
+app/controllers/sessions_controller.rb:6: syntax error, unexpected tLABEL, expecting '='
+app/controllers/sessions_controller.rb:6: syntax error, unexpected '}', expecting end
+app/controllers/sessions_controller.rb:8: syntax error, unexpected ':', expecting '}'
+app/controllers/sessions_controller.rb:8: syntax error, unexpected '}', expecting end
+app/controllers/sessions_controller.rb:18: syntax error, unexpected end-of-input, expecting end
+Started POST "//login" for ::1 at 2020-01-03 11:49:13 +0530
+Processing by SessionsController#create as JSON
+  Parameters: {"user"=>{"email"=>"akash.d@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "akash.d@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:4:in `create'
+Completed 500 Internal Server Error in 164ms (ActiveRecord: 6.3ms | Allocations: 9121)
+
+
+  
+NoMethodError (undefined method `token' for #<User:0x00007fda840b8220>
+Did you mean?  to_key):
+  
+app/controllers/sessions_controller.rb:6:in `create'
+Started POST "//login" for ::1 at 2020-01-03 11:49:32 +0530
+Processing by SessionsController#create as JSON
+  Parameters: {"user"=>{"email"=>"akash.d@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "akash.d@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:4:in `create'
+Completed 200 OK in 162ms (Views: 0.5ms | ActiveRecord: 5.6ms | Allocations: 7328)
+
+
+  [1m[36mUser Load (40.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+Started POST "//login" for ::1 at 2020-01-03 12:08:42 +0530
+Processing by SessionsController#create as JSON
+  Parameters: {"user"=>{"email"=>"akash.d@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "akash.d@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:23:in `generate_token'
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 2.1ms | Allocations: 8703)
+
+
+  
+NoMethodError (undefined method `token' for #<User:0x000055670e4af428>
+Did you mean?  to_key):
+  
+app/controllers/sessions_controller.rb:24:in `generate_token'
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4693523171916063030)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddColumnToUsers (20200103063941)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (17.5ms)[0m  [1m[35mALTER TABLE "users" ADD "token" character varying[0m
+  [1m[36mprimary::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200103063941"]]
+  [1m[35m (8.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(4693523171916063030)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "//login" for ::1 at 2020-01-03 12:09:51 +0530
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#create as JSON
+  Parameters: {"user"=>{"email"=>"akash.d@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (38.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "akash.d@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:23:in `generate_token'
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "akash.d@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:23:in `generate_token'
+Completed 500 Internal Server Error in 101ms (ActiveRecord: 46.1ms | Allocations: 8524)
+
+
+  
+ActiveRecord::StatementInvalid (PG::UndefinedColumn: ERROR:  column users.access_token does not exist
+LINE 1: SELECT "users".* FROM "users" WHERE "users"."access_token" =...
+                                            ^
+):
+  
+app/controllers/sessions_controller.rb:33:in `block in generate_access_token'
+app/controllers/sessions_controller.rb:31:in `loop'
+app/controllers/sessions_controller.rb:31:in `generate_access_token'
+app/controllers/sessions_controller.rb:25:in `generate_token'
+Started POST "//login" for ::1 at 2020-01-03 12:10:29 +0530
+Processing by SessionsController#create as JSON
+  Parameters: {"user"=>{"email"=>"akash.d@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "akash.d@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:23:in `generate_token'
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["token", "XM8i6fshor4ANCEfJRen"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:33:in `block in generate_access_token'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "akash.d@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Completed 200 OK in 203ms (Views: 0.2ms | ActiveRecord: 5.1ms | Allocations: 9058)
+
+
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+Started POST "//login" for ::1 at 2020-01-03 12:19:46 +0530
+Processing by SessionsController#create as JSON
+  Parameters: {"user"=>{"email"=>"akash.d@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "akash.d@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:26:in `generate_token'
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["token", "xRks-8cAKu-95X41kGxj"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:36:in `block in generate_access_token'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "akash.d@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Completed 500 Internal Server Error in 160ms (ActiveRecord: 1.6ms | Allocations: 10228)
+
+
+  
+NameError (uninitialized constant SessionsController::JsonWebToken):
+  
+app/controllers/sessions_controller.rb:8:in `create'
+Started POST "//login" for ::1 at 2020-01-03 12:21:38 +0530
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#create as JSON
+  Parameters: {"user"=>{"email"=>"akash.d@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "akash.d@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:26:in `generate_token'
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["token", "WdGPSFxxqpKWW51VYvmn"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:36:in `block in generate_access_token'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "akash.d@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Completed 500 Internal Server Error in 213ms (ActiveRecord: 9.7ms | Allocations: 12013)
+
+
+  
+NameError (uninitialized constant SessionsController::JsonWebToken):
+  
+app/controllers/sessions_controller.rb:8:in `create'
+Started POST "//login" for ::1 at 2020-01-03 12:23:18 +0530
+Processing by SessionsController#create as JSON
+  Parameters: {"user"=>{"email"=>"akash.d@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "akash.d@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:26:in `generate_token'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["token", "sT1yXuKB1s95N4ehj7z8"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:36:in `block in generate_access_token'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "akash.d@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Completed 500 Internal Server Error in 149ms (ActiveRecord: 0.9ms | Allocations: 3501)
+
+
+  
+NameError (uninitialized constant SessionsController::JsonWebToken):
+  
+app/controllers/sessions_controller.rb:8:in `create'
+Started POST "//login" for ::1 at 2020-01-03 12:23:31 +0530
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#create as JSON
+  Parameters: {"user"=>{"email"=>"akash.d@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "akash.d@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:26:in `generate_token'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["token", "xHZjHCAStqHsxr8wZoLU"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:36:in `block in generate_access_token'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "akash.d@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Completed 200 OK in 164ms (Views: 0.2ms | ActiveRecord: 6.9ms | Allocations: 10807)
+
+
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4693523171916063030)[0m
+  [1m[35m (17.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateTweets (20200103070220)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (295.6ms)[0m  [1m[35mCREATE TABLE "tweets" ("id" bigserial primary key, "user_id" bigint NOT NULL, "tweet" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, CONSTRAINT "fk_rails_003928b7f5"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+)[0m
+  [1m[35m (65.9ms)[0m  [1m[35mCREATE  INDEX  "index_tweets_on_user_id" ON "tweets"  ("user_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200103070220"]]
+  [1m[35m (4.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(4693523171916063030)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTweet Load (0.5ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+Started POST "//v1/tweets" for ::1 at 2020-01-03 12:41:29 +0530
+  
+NoMethodError (undefined method `resoures' for #<ActionDispatch::Routing::Mapper:0x00007f79540e5428>
+Did you mean?  resources
+               resource):
+  
+config/routes.rb:20:in `block (3 levels) in <main>'
+config/routes.rb:18:in `block (2 levels) in <main>'
+config/routes.rb:17:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started POST "//v1/tweets" for ::1 at 2020-01-03 12:42:01 +0530
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::TweetsController#create as JSON
+  Parameters: {"tweet"=>{"tweet"=>"This is my first tweet"}}
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms | Allocations: 1788)
+
+
+  
+NameError (uninitialized constant Api::V1::ApiController::Employee):
+  
+app/controllers/api/v1/api_controller.rb:13:in `authenticate_user!'
+Started POST "//v1/tweets" for ::1 at 2020-01-03 12:42:49 +0530
+Processing by Api::V1::TweetsController#create as JSON
+  Parameters: {"tweet"=>{"tweet"=>"This is my first tweet"}}
+Filter chain halted as :authenticate_user! rendered or redirected
+Completed 401 Unauthorized in 8ms (Views: 0.2ms | ActiveRecord: 4.7ms | Allocations: 1387)
+
+
+Started POST "//v1/tweets" for ::1 at 2020-01-03 12:44:26 +0530
+Processing by Api::V1::TweetsController#create as JSON
+  Parameters: {"tweet"=>{"tweet"=>"This is my first tweet"}}
+Filter chain halted as :authenticate_user! rendered or redirected
+Completed 401 Unauthorized in 10ms (Views: 0.3ms | ActiveRecord: 6.0ms | Allocations: 990)
+
+
+Started POST "//v1/tweets" for ::1 at 2020-01-03 12:44:53 +0530
+Processing by Api::V1::TweetsController#create as JSON
+  Parameters: {"tweet"=>{"tweet"=>"This is my first tweet"}}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ (byebug):1:in `authenticate_user!'
+Filter chain halted as :authenticate_user! rendered or redirected
+Completed 401 Unauthorized in 44436ms (Views: 0.6ms | ActiveRecord: 13.2ms | Allocations: 141231)
+
+
+Started POST "//v1/tweets" for ::1 at 2020-01-03 12:46:04 +0530
+Processing by Api::V1::TweetsController#create as JSON
+  Parameters: {"tweet"=>{"tweet"=>"This is my first tweet"}}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:13:in `authenticate_user!'
+Completed 500 Internal Server Error in 59ms (ActiveRecord: 9.8ms | Allocations: 11263)
+
+
+  
+NoMethodError (undefined method `id' for nil:NilClass):
+  
+app/controllers/api/v1/tweets_controller.rb:6:in `create'
+Started POST "//v1/tweets" for ::1 at 2020-01-03 12:46:57 +0530
+Processing by Api::V1::TweetsController#create as JSON
+  Parameters: {"tweet"=>{"tweet"=>"This is my first tweet"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:13:in `authenticate_user!'
+Completed 500 Internal Server Error in 31286ms (ActiveRecord: 8.4ms | Allocations: 16282)
+
+
+  
+NoMethodError (undefined method `id' for nil:NilClass):
+  
+app/controllers/api/v1/tweets_controller.rb:7:in `create'
+Started POST "//v1/tweets" for ::1 at 2020-01-03 12:48:09 +0530
+Processing by Api::V1::TweetsController#create as JSON
+  Parameters: {"tweet"=>{"tweet"=>"This is my first tweet"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:13:in `authenticate_user!'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/tweets_controller.rb:8:in `create'
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/tweets_controller.rb:8:in `create'
+  [1m[36mTweet Create (18.3ms)[0m  [1m[32mINSERT INTO "tweets" ("user_id", "tweet", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 1], ["tweet", "This is my first tweet"], ["created_at", "2020-01-03 07:18:16.858742"], ["updated_at", "2020-01-03 07:18:16.858742"]]
+  ↳ app/controllers/api/v1/tweets_controller.rb:8:in `create'
+  [1m[35m (50.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/tweets_controller.rb:8:in `create'
+Completed 200 OK in 7621ms (Views: 0.4ms | ActiveRecord: 78.4ms | Allocations: 19037)
+
+
+Started POST "//signup" for ::1 at 2020-01-03 13:24:24 +0530
+  [1m[35m (16.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (6.0.2.1) lib/active_record/migration.rb:587:in `check_pending!'
+activerecord (6.0.2.1) lib/active_record/migration.rb:564:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4693523171916063030)[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateFollows (20200103072819)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(4693523171916063030)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4693523171916063030)[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateFollows (20200103072819)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (230.1ms)[0m  [1m[35mCREATE TABLE "follows" ("id" bigserial primary key, "follower_id" integer, "following_id" integer, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200103072819"]]
+  [1m[35m (21.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(4693523171916063030)[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "//signup" for ::1 at 2020-01-03 13:25:58 +0530
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RegistrationsController#create as JSON
+  Parameters: {"user"=>{"email"=>"mukul@gmail.com", "name"=>"mukul", "password"=>"[FILTERED]", "password_confiramtion"=>"[FILTERED]", "phone"=>"9876543210"}}
+[31mUnpermitted parameter: :password_confiramtion[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/registrations_controller.rb:5:in `create'
+  [1m[36mUser Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "mukul@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/registrations_controller.rb:5:in `create'
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "phone", "name") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "mukul@gmail.com"], ["encrypted_password", "$2a$11$wNmtU9G82GAUnw7ELONm7.7rrLEf7gHZlhXgJiiwlTUEAILLvSYYi"], ["created_at", "2020-01-03 07:55:58.837305"], ["updated_at", "2020-01-03 07:55:58.837305"], ["phone", "9876543210"], ["name", "mukul"]]
+  ↳ app/controllers/registrations_controller.rb:5:in `create'
+  [1m[35m (16.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/registrations_controller.rb:5:in `create'
+Completed 200 OK in 315ms (Views: 0.9ms | ActiveRecord: 24.8ms | Allocations: 11458)
+
+
+Started POST "//v1/user/follow" for ::1 at 2020-01-03 13:26:18 +0530
+Processing by Api::V1::UsersController#follow as JSON
+  Parameters: {"user_id"=>2, "user"=>{}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:13:in `authenticate_user!'
+Completed 500 Internal Server Error in 179ms (ActiveRecord: 1.9ms | Allocations: 41418)
+
+
+  
+NoMethodError (undefined method `check_user_exists' for #<Api::V1::UsersController:0x000055db3f75ace0>):
+  
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:429:in `block in make_lambda'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:182:in `block (2 levels) in halting_and_conditional'
+actionpack (6.0.2.1) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:183:in `block in halting_and_conditional'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:514:in `block in invoke_before'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:514:in `each'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:514:in `invoke_before'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:134:in `run_callbacks'
+actionpack (6.0.2.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.2.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.2.1) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.2.1) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.2.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.2.1) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.2.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.2.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.2.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.2.1) lib/abstract_controller/base.rb:136:in `process'
+actionpack (6.0.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.0.8) lib/rack/etag.rb:25:in `call'
+rack (2.0.8) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.8) lib/rack/head.rb:12:in `call'
+activerecord (6.0.2.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "//v1/user/follow" for ::1 at 2020-01-03 13:27:59 +0530
+Processing by Api::V1::UsersController#follow as JSON
+  Parameters: {"user_id"=>2, "user"=>{}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:13:in `authenticate_user!'
+Completed 500 Internal Server Error in 139ms (ActiveRecord: 5.5ms | Allocations: 47446)
+
+
+  
+NoMethodError (undefined method `check_user_exists' for #<Api::V1::UsersController:0x000055db3ef0ddd0>):
+  
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:429:in `block in make_lambda'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:182:in `block (2 levels) in halting_and_conditional'
+actionpack (6.0.2.1) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:183:in `block in halting_and_conditional'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:514:in `block in invoke_before'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:514:in `each'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:514:in `invoke_before'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:134:in `run_callbacks'
+actionpack (6.0.2.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.2.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.2.1) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.2.1) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.2.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.2.1) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.2.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.2.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.2.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.2.1) lib/abstract_controller/base.rb:136:in `process'
+actionpack (6.0.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.2.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.2.1) lib/action_dispatch/routing/route_set.rb:837:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.0.8) lib/rack/etag.rb:25:in `call'
+rack (2.0.8) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.8) lib/rack/head.rb:12:in `call'
+activerecord (6.0.2.1) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "//v1/user/follow" for ::1 at 2020-01-03 13:29:00 +0530
+Processing by Api::V1::UsersController#follow as JSON
+  Parameters: {"user_id"=>2, "user"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:13:in `authenticate_user!'
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:32:in `check_user_exists'
+  [1m[36mFollow Load (0.7ms)[0m  [1m[34mSELECT "follows".* FROM "follows" WHERE "follows"."follower_id" = $1 AND "follows"."following_id" = $2 LIMIT $3[0m  [["follower_id", 1], ["following_id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:37:in `check_user_already_follow?'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:9:in `follow'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:9:in `follow'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/users_controller.rb:9:in `follow'
+  [1m[36mFollow Create (1.1ms)[0m  [1m[32mINSERT INTO "follows" ("follower_id", "following_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["follower_id", 1], ["following_id", 2], ["created_at", "2020-01-03 07:59:06.959536"], ["updated_at", "2020-01-03 07:59:06.959536"]]
+  ↳ app/controllers/api/v1/users_controller.rb:9:in `follow'
+  [1m[35m (17.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/users_controller.rb:9:in `follow'
+Completed 200 OK in 6308ms (Views: 0.9ms | ActiveRecord: 31.4ms | Allocations: 18363)
+
+
+Started DELETE "//v1/user/unfollow" for ::1 at 2020-01-03 13:30:55 +0530
+Processing by Api::V1::UsersController#unfollow as JSON
+  Parameters: {"user_id"=>1, "user"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:13:in `authenticate_user!'
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:32:in `check_user_exists'
+  [1m[36mFollow Load (0.5ms)[0m  [1m[34mSELECT "follows".* FROM "follows" WHERE "follows"."follower_id" = $1 AND "follows"."following_id" = $2 LIMIT $3[0m  [["follower_id", 1], ["following_id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:17:in `unfollow'
+Completed 200 OK in 4516ms (Views: 0.3ms | ActiveRecord: 6.8ms | Allocations: 11126)
+
+
+Started DELETE "//v1/user/unfollow" for ::1 at 2020-01-03 13:33:13 +0530
+Processing by Api::V1::UsersController#unfollow as JSON
+  Parameters: {"user_id"=>1, "user"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:13:in `authenticate_user!'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:31:in `check_user_exists'
+  [1m[36mFollow Load (0.3ms)[0m  [1m[34mSELECT "follows".* FROM "follows" WHERE "follows"."follower_id" = $1 AND "follows"."following_id" = $2 LIMIT $3[0m  [["follower_id", 1], ["following_id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:17:in `unfollow'
+Completed 200 OK in 35ms (Views: 0.2ms | ActiveRecord: 8.2ms | Allocations: 9082)
+
+
+Started DELETE "//v1/user/unfollow" for ::1 at 2020-01-03 13:33:53 +0530
+Processing by Api::V1::UsersController#unfollow as JSON
+  Parameters: {"user_id"=>1, "user"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:13:in `authenticate_user!'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:31:in `check_user_exists'
+Completed 500 Internal Server Error in 267ms (ActiveRecord: 4.8ms | Allocations: 87252)
+
+
+  
+NameError (undefined local variable or method `user' for #<Api::V1::UsersController:0x000055db3f34fee8>
+Did you mean?  @user):
+  
+app/controllers/api/v1/users_controller.rb:32:in `check_user_exists'
+Started DELETE "//v1/user/unfollow" for ::1 at 2020-01-03 13:34:55 +0530
+Processing by Api::V1::UsersController#unfollow as JSON
+  Parameters: {"user_id"=>4, "user"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:13:in `authenticate_user!'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:31:in `check_user_exists'
+Completed 404 Not Found in 31ms (ActiveRecord: 6.4ms | Allocations: 7555)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=4):
+  
+app/controllers/api/v1/users_controller.rb:31:in `check_user_exists'
+Started DELETE "//v1/user/unfollow" for ::1 at 2020-01-03 13:36:00 +0530
+Processing by Api::V1::UsersController#unfollow as JSON
+  Parameters: {"user_id"=>4, "user"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:13:in `authenticate_user!'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:31:in `check_user_exists'
+Completed 404 Not Found in 18ms (ActiveRecord: 4.9ms | Allocations: 7521)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=4):
+  
+app/controllers/api/v1/users_controller.rb:31:in `check_user_exists'
+Started DELETE "//v1/user/unfollow" for ::1 at 2020-01-03 13:44:00 +0530
+Processing by Api::V1::UsersController#unfollow as JSON
+  Parameters: {"user_id"=>4, "user"=>{}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:57:in `authenticate_user!'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:33:in `check_user_exists'
+Completed 404 Not Found in 47ms (Views: 0.2ms | ActiveRecord: 1.1ms | Allocations: 7627)
+
+
+Started DELETE "//v1/user/unfollow" for ::1 at 2020-01-03 13:47:28 +0530
+Processing by Api::V1::UsersController#unfollow as JSON
+  Parameters: {"user_id"=>2, "user"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:57:in `authenticate_user!'
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:26:in `check_user_exists'
+  [1m[36mFollow Load (0.6ms)[0m  [1m[34mSELECT "follows".* FROM "follows" WHERE "follows"."follower_id" = $1 AND "follows"."following_id" = $2 LIMIT $3[0m  [["follower_id", 1], ["following_id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:13:in `unfollow'
+  [1m[36mFollow Destroy (89.5ms)[0m  [1m[31mDELETE FROM "follows" WHERE "follows"."id" = $1[0m  [["id", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:15:in `unfollow'
+Completed 500 Internal Server Error in 168ms (ActiveRecord: 161.4ms | Allocations: 13926)
+
+
+  
+NameError (uninitialized constant Api::V1::ApiController::ActiveModelSerializers):
+  
+app/controllers/api/v1/api_controller.rb:8:in `serialize_object'
+app/controllers/api/v1/api_controller.rb:16:in `block (2 levels) in <class:ApiController>'
+app/controllers/api/v1/users_controller.rb:16:in `unfollow'
+Started DELETE "//v1/user/unfollow" for ::1 at 2020-01-03 13:50:40 +0530
+  [1m[35m (13.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::UsersController#unfollow as JSON
+  Parameters: {"user_id"=>2, "user"=>{}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:57:in `authenticate_user!'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:26:in `check_user_exists'
+  [1m[36mFollow Load (0.7ms)[0m  [1m[34mSELECT "follows".* FROM "follows" WHERE "follows"."follower_id" = $1 AND "follows"."following_id" = $2 LIMIT $3[0m  [["follower_id", 1], ["following_id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:13:in `unfollow'
+Completed 500 Internal Server Error in 207ms (ActiveRecord: 12.4ms | Allocations: 51557)
+
+
+  
+NoMethodError (undefined method `render_errors' for #<Api::V1::UsersController:0x0000555942774318>
+Did you mean?  render_error):
+  
+app/controllers/api/v1/users_controller.rb:18:in `unfollow'
+  [1m[36mFollow Load (0.5ms)[0m  [1m[34mSELECT "follows".* FROM "follows" ORDER BY "follows"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+Started POST "//v1/user/follow" for ::1 at 2020-01-03 13:51:41 +0530
+Processing by Api::V1::UsersController#follow as JSON
+  Parameters: {"user_id"=>2, "user"=>{}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:57:in `authenticate_user!'
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:26:in `check_user_exists'
+  [1m[36mFollow Load (0.3ms)[0m  [1m[34mSELECT "follows".* FROM "follows" WHERE "follows"."follower_id" = $1 AND "follows"."following_id" = $2 LIMIT $3[0m  [["follower_id", 1], ["following_id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:30:in `check_user_already_follow?'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:33:in `render_save_data'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:33:in `render_save_data'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/api_controller.rb:33:in `render_save_data'
+  [1m[36mFollow Create (18.7ms)[0m  [1m[32mINSERT INTO "follows" ("follower_id", "following_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["follower_id", 1], ["following_id", 2], ["created_at", "2020-01-03 08:21:41.640620"], ["updated_at", "2020-01-03 08:21:41.640620"]]
+  ↳ app/controllers/api/v1/api_controller.rb:33:in `render_save_data'
+  [1m[35m (18.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/api_controller.rb:33:in `render_save_data'
+[active_model_serializers] Rendered Api::V1::FollowSerializer with ActiveModelSerializers::Adapter::JsonApi (3.6ms)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (41.0ms)
+Completed 200 OK in 238ms (Views: 82.6ms | ActiveRecord: 47.1ms | Allocations: 22708)
+
+
+Started DELETE "//v1/user/unfollow" for ::1 at 2020-01-03 13:51:48 +0530
+Processing by Api::V1::UsersController#unfollow as JSON
+  Parameters: {"user_id"=>2, "user"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:57:in `authenticate_user!'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:26:in `check_user_exists'
+  [1m[36mFollow Load (0.3ms)[0m  [1m[34mSELECT "follows".* FROM "follows" WHERE "follows"."follower_id" = $1 AND "follows"."following_id" = $2 LIMIT $3[0m  [["follower_id", 1], ["following_id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:13:in `unfollow'
+  [1m[36mFollow Destroy (121.3ms)[0m  [1m[31mDELETE FROM "follows" WHERE "follows"."id" = $1[0m  [["id", 2]]
+  ↳ app/controllers/api/v1/users_controller.rb:15:in `unfollow'
+[active_model_serializers] Rendered Api::V1::FollowSerializer with ActiveModelSerializers::Adapter::JsonApi (0.5ms)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.98ms)
+Completed 200 OK in 129ms (Views: 1.5ms | ActiveRecord: 122.4ms | Allocations: 2701)
+
+
+  [1m[36mFollow Load (0.9ms)[0m  [1m[34mSELECT "follows".* FROM "follows" ORDER BY "follows"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+Started GET "//v1/show/follower" for ::1 at 2020-01-03 14:00:14 +0530
+Processing by Api::V1::UsersController#show_current_user_follower as JSON
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:57:in `authenticate_user!'
+  [1m[36mFollow Load (0.5ms)[0m  [1m[34mSELECT "follows".* FROM "follows" WHERE "follows"."follower_id" = $1 LIMIT $2[0m  [["follower_id", 1], ["LIMIT", 11]]
+  ↳ app/controllers/api/v1/users_controller.rb:25:in `show_current_user_follower'
+  [1m[36mFollow Load (0.6ms)[0m  [1m[34mSELECT "follows".* FROM "follows" WHERE "follows"."follower_id" = $1[0m  [["follower_id", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:25:in `map'
+Completed 204 No Content in 10061ms (ActiveRecord: 3.2ms | Allocations: 38778)
+
+
+Started POST "//v1/user/follow" for ::1 at 2020-01-03 14:00:32 +0530
+Processing by Api::V1::UsersController#follow as JSON
+  Parameters: {"user_id"=>2, "user"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:57:in `authenticate_user!'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:32:in `check_user_exists'
+  [1m[36mFollow Load (0.3ms)[0m  [1m[34mSELECT "follows".* FROM "follows" WHERE "follows"."follower_id" = $1 AND "follows"."following_id" = $2 LIMIT $3[0m  [["follower_id", 1], ["following_id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:36:in `check_user_already_follow?'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:33:in `render_save_data'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:33:in `render_save_data'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/api_controller.rb:33:in `render_save_data'
+  [1m[36mFollow Create (228.4ms)[0m  [1m[32mINSERT INTO "follows" ("follower_id", "following_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["follower_id", 1], ["following_id", 2], ["created_at", "2020-01-03 08:30:32.592208"], ["updated_at", "2020-01-03 08:30:32.592208"]]
+  ↳ app/controllers/api/v1/api_controller.rb:33:in `render_save_data'
+  [1m[35m (71.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/api_controller.rb:33:in `render_save_data'
+[active_model_serializers] Rendered Api::V1::FollowSerializer with ActiveModelSerializers::Adapter::JsonApi (0.47ms)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (179.7ms)
+Completed 200 OK in 518ms (Views: 181.8ms | ActiveRecord: 301.5ms | Allocations: 9791)
+
+
+Started GET "//v1/show/follower" for ::1 at 2020-01-03 14:00:44 +0530
+Processing by Api::V1::UsersController#show_current_user_follower as JSON
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:57:in `authenticate_user!'
+  [1m[36mFollow Load (0.9ms)[0m  [1m[34mSELECT "follows".* FROM "follows" WHERE "follows"."follower_id" = $1 LIMIT $2[0m  [["follower_id", 1], ["LIMIT", 11]]
+  ↳ app/controllers/api/v1/users_controller.rb:25:in `show_current_user_follower'
+  [1m[36mFollow Load (17.9ms)[0m  [1m[34mSELECT "follows".* FROM "follows" WHERE "follows"."follower_id" = $1[0m  [["follower_id", 1]]
+  ↳ (byebug):1:in `map'
+  [1m[36mCACHE Follow Load (0.0ms)[0m  [1m[34mSELECT "follows".* FROM "follows" WHERE "follows"."follower_id" = $1 LIMIT $2[0m  [["follower_id", 1], ["LIMIT", 11]]
+  ↳ app/controllers/api/v1/users_controller.rb:25:in `show_current_user_follower'
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "follows"."id" FROM "follows" WHERE "follows"."follower_id" = $1[0m  [["follower_id", 1]]
+  ↳ (byebug):1:in `show_current_user_follower'
+Completed 500 Internal Server Error in 354281ms (ActiveRecord: 19.5ms | Allocations: 16647)
+
+
+  
+NoMethodError (undefined method `all' for [3]:Array
+Did you mean?  all?):
+  
+app/controllers/api/v1/users_controller.rb:25:in `show_current_user_follower'
+Started GET "//v1/show/follower" for ::1 at 2020-01-03 14:06:43 +0530
+Processing by Api::V1::UsersController#show_current_user_follower as JSON
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:57:in `authenticate_user!'
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "follows"."id" FROM "follows" WHERE "follows"."follower_id" = $1[0m  [["follower_id", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:23:in `show_current_user_follower'
+  [1m[36mFollow Load (0.4ms)[0m  [1m[34mSELECT "follows".* FROM "follows" WHERE "follows"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:25:in `block in show_current_user_follower'
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:26:in `block in show_current_user_follower'
+[active_model_serializers] No serializer found for resource: #<User id: 2, email: "mukul@gmail.com", created_at: "2020-01-03 07:55:58", updated_at: "2020-01-03 07:55:58", phone: "9876543210", name: "mukul", token: nil>
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Array (0.23ms)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.55ms)
+Completed 200 OK in 109ms (Views: 4.8ms | ActiveRecord: 38.9ms | Allocations: 13879)
+
+
+Started GET "//v1/show/follower" for ::1 at 2020-01-03 14:07:00 +0530
+Processing by Api::V1::UsersController#show_current_user_follower as JSON
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:57:in `authenticate_user!'
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "follows"."id" FROM "follows" WHERE "follows"."follower_id" = $1[0m  [["follower_id", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:23:in `show_current_user_follower'
+  [1m[36mFollow Load (0.3ms)[0m  [1m[34mSELECT "follows".* FROM "follows" WHERE "follows"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:25:in `block in show_current_user_follower'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:26:in `block in show_current_user_follower'
+[active_model_serializers] No serializer found for resource: #<User id: 2, email: "mukul@gmail.com", created_at: "2020-01-03 07:55:58", updated_at: "2020-01-03 07:55:58", phone: "9876543210", name: "mukul", token: nil>
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Array (0.19ms)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (2.33ms)
+Completed 200 OK in 16ms (Views: 2.7ms | ActiveRecord: 1.3ms | Allocations: 2776)
+
+
+Started GET "//v1/show/follower" for ::1 at 2020-01-03 14:07:03 +0530
+Processing by Api::V1::UsersController#show_current_user_follower as JSON
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:57:in `authenticate_user!'
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "follows"."id" FROM "follows" WHERE "follows"."follower_id" = $1[0m  [["follower_id", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:23:in `show_current_user_follower'
+  [1m[36mFollow Load (0.3ms)[0m  [1m[34mSELECT "follows".* FROM "follows" WHERE "follows"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:25:in `block in show_current_user_follower'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:26:in `block in show_current_user_follower'
+[active_model_serializers] No serializer found for resource: #<User id: 2, email: "mukul@gmail.com", created_at: "2020-01-03 07:55:58", updated_at: "2020-01-03 07:55:58", phone: "9876543210", name: "mukul", token: nil>
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Array (1.3ms)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (2.18ms)
+Completed 200 OK in 17ms (Views: 2.6ms | ActiveRecord: 1.2ms | Allocations: 2776)
+
+
+Started GET "//v1/show/follower" for ::1 at 2020-01-03 14:08:36 +0530
+Processing by Api::V1::UsersController#show_current_user_follower as JSON
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:57:in `authenticate_user!'
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "follows"."id" FROM "follows" WHERE "follows"."follower_id" = $1[0m  [["follower_id", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:23:in `show_current_user_follower'
+  [1m[36mFollow Load (0.5ms)[0m  [1m[34mSELECT "follows".* FROM "follows" WHERE "follows"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:25:in `block in show_current_user_follower'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:26:in `block in show_current_user_follower'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::JsonApi (0.75ms)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (9.79ms)
+Completed 200 OK in 51ms (Views: 10.5ms | ActiveRecord: 10.7ms | Allocations: 13982)
+
+
+Started POST "//signup" for ::1 at 2020-01-03 14:09:07 +0530
+Processing by RegistrationsController#create as JSON
+  Parameters: {"user"=>{"email"=>"aggarwal@gmail.com", "name"=>"agarwal", "password"=>"[FILTERED]", "password_confiramtion"=>"[FILTERED]", "phone"=>"9876543210"}}
+[31mUnpermitted parameter: :password_confiramtion[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/registrations_controller.rb:5:in `create'
+  [1m[36mUser Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "aggarwal@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/registrations_controller.rb:5:in `create'
+  [1m[36mUser Create (17.5ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "phone", "name") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "aggarwal@gmail.com"], ["encrypted_password", "$2a$11$JkNQuT5WWuqQRk81ExLUn.Hu2OOG4Y1p4tnKH.Tx8wSG2SgeuAvea"], ["created_at", "2020-01-03 08:39:07.964189"], ["updated_at", "2020-01-03 08:39:07.964189"], ["phone", "9876543210"], ["name", "agarwal"]]
+  ↳ app/controllers/registrations_controller.rb:5:in `create'
+  [1m[35m (52.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/registrations_controller.rb:5:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.5ms)
+Completed 200 OK in 309ms (Views: 15.6ms | ActiveRecord: 71.0ms | Allocations: 6623)
+
+
+Started POST "//v1/user/follow" for ::1 at 2020-01-03 14:09:33 +0530
+Processing by Api::V1::UsersController#follow as JSON
+  Parameters: {"user_id"=>3, "user"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:57:in `authenticate_user!'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:35:in `check_user_exists'
+  [1m[36mFollow Load (0.4ms)[0m  [1m[34mSELECT "follows".* FROM "follows" WHERE "follows"."follower_id" = $1 AND "follows"."following_id" = $2 LIMIT $3[0m  [["follower_id", 1], ["following_id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:39:in `check_user_already_follow?'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:33:in `render_save_data'
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:33:in `render_save_data'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/api_controller.rb:33:in `render_save_data'
+  [1m[36mFollow Create (0.4ms)[0m  [1m[32mINSERT INTO "follows" ("follower_id", "following_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["follower_id", 1], ["following_id", 3], ["created_at", "2020-01-03 08:39:33.053863"], ["updated_at", "2020-01-03 08:39:33.053863"]]
+  ↳ app/controllers/api/v1/api_controller.rb:33:in `render_save_data'
+  [1m[35m (37.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/api_controller.rb:33:in `render_save_data'
+[active_model_serializers] Rendered Api::V1::FollowSerializer with ActiveModelSerializers::Adapter::JsonApi (0.47ms)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (18.67ms)
+Completed 200 OK in 74ms (Views: 19.5ms | ActiveRecord: 39.4ms | Allocations: 6920)
+
+
+Started GET "//v1/show/follower" for ::1 at 2020-01-03 14:09:38 +0530
+Processing by Api::V1::UsersController#show_current_user_follower as JSON
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:57:in `authenticate_user!'
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "follows"."id" FROM "follows" WHERE "follows"."follower_id" = $1[0m  [["follower_id", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:23:in `show_current_user_follower'
+  [1m[36mFollow Load (0.3ms)[0m  [1m[34mSELECT "follows".* FROM "follows" WHERE "follows"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:25:in `block in show_current_user_follower'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:26:in `block in show_current_user_follower'
+  [1m[36mFollow Load (0.4ms)[0m  [1m[34mSELECT "follows".* FROM "follows" WHERE "follows"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:25:in `block in show_current_user_follower'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:26:in `block in show_current_user_follower'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::JsonApi (1.07ms)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.83ms)
+Completed 200 OK in 17ms (Views: 2.4ms | ActiveRecord: 2.0ms | Allocations: 4061)
+
+
+Started POST "//v1/tweets" for ::1 at 2020-01-03 14:10:38 +0530
+Processing by Api::V1::TweetsController#create as JSON
+  Parameters: {"tweet"=>{"tweet"=>"This is my second tweet"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:57:in `authenticate_user!'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/tweets_controller.rb:7:in `create'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/tweets_controller.rb:7:in `create'
+  [1m[36mTweet Create (42.8ms)[0m  [1m[32mINSERT INTO "tweets" ("user_id", "tweet", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 1], ["tweet", "This is my second tweet"], ["created_at", "2020-01-03 08:40:38.797340"], ["updated_at", "2020-01-03 08:40:38.797340"]]
+  ↳ app/controllers/api/v1/tweets_controller.rb:7:in `create'
+  [1m[35m (26.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/tweets_controller.rb:7:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.4ms)
+Completed 200 OK in 109ms (Views: 1.4ms | ActiveRecord: 77.6ms | Allocations: 14404)
+
+
+Started POST "//v1/tweets" for ::1 at 2020-01-03 14:11:18 +0530
+Processing by Api::V1::TweetsController#create as JSON
+  Parameters: {"tweet"=>{"tweet"=>"This is my third tweet"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:57:in `authenticate_user!'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:33:in `render_save_data'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v1/api_controller.rb:33:in `render_save_data'
+  [1m[36mTweet Create (0.8ms)[0m  [1m[32mINSERT INTO "tweets" ("user_id", "tweet", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 1], ["tweet", "This is my third tweet"], ["created_at", "2020-01-03 08:41:18.451911"], ["updated_at", "2020-01-03 08:41:18.451911"]]
+  ↳ app/controllers/api/v1/api_controller.rb:33:in `render_save_data'
+  [1m[35m (15.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v1/api_controller.rb:33:in `render_save_data'
+[active_model_serializers] Rendered Api::V1::TweetSerializer with ActiveModelSerializers::Adapter::JsonApi (15.37ms)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (123.71ms)
+Completed 200 OK in 185ms (Views: 124.9ms | ActiveRecord: 26.6ms | Allocations: 17468)
+
+
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mFollow Create (0.9ms)[0m  [1m[32mINSERT INTO "follows" ("follower_id", "following_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["follower_id", 2], ["following_id", 1], ["created_at", "2020-01-03 08:44:23.554936"], ["updated_at", "2020-01-03 08:44:23.554936"]]
+  [1m[35m (14.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mFollow Create (0.7ms)[0m  [1m[32mINSERT INTO "follows" ("follower_id", "following_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["follower_id", 3], ["following_id", 1], ["created_at", "2020-01-03 08:44:30.391373"], ["updated_at", "2020-01-03 08:44:30.391373"]]
+  [1m[35m (28.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mFollow Create (0.7ms)[0m  [1m[32mINSERT INTO "follows" ("follower_id", "following_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["follower_id", 1], ["following_id", 3], ["created_at", "2020-01-03 08:44:38.149942"], ["updated_at", "2020-01-03 08:44:38.149942"]]
+  [1m[35m (11.6ms)[0m  [1m[35mCOMMIT[0m
+Started GET "//v1/show/follower" for ::1 at 2020-01-03 14:15:11 +0530
+Processing by Api::V1::UsersController#show_current_user_follower as JSON
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:57:in `authenticate_user!'
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "follows"."id" FROM "follows" WHERE "follows"."follower_id" = $1[0m  [["follower_id", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:23:in `show_current_user_follower'
+  [1m[36mFollow Load (0.3ms)[0m  [1m[34mSELECT "follows".* FROM "follows" WHERE "follows"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:25:in `block in show_current_user_follower'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:26:in `block in show_current_user_follower'
+  [1m[36mFollow Load (0.3ms)[0m  [1m[34mSELECT "follows".* FROM "follows" WHERE "follows"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:25:in `block in show_current_user_follower'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:26:in `block in show_current_user_follower'
+  [1m[36mFollow Load (0.3ms)[0m  [1m[34mSELECT "follows".* FROM "follows" WHERE "follows"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:25:in `block in show_current_user_follower'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:26:in `block in show_current_user_follower'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::JsonApi (0.87ms)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.84ms)
+Completed 200 OK in 43ms (Views: 2.4ms | ActiveRecord: 11.7ms | Allocations: 16142)
+
+
+Started GET "//v1/show/following" for ::1 at 2020-01-03 14:15:56 +0530
+Processing by Api::V1::UsersController#show_current_user_followings as JSON
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:57:in `authenticate_user!'
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "follows"."id" FROM "follows" WHERE "follows"."following_id" = $1[0m  [["following_id", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:32:in `show_current_user_followings'
+Completed 500 Internal Server Error in 229ms (ActiveRecord: 0.7ms | Allocations: 81725)
+
+
+  
+NameError (undefined local variable or method `following' for #<Api::V1::UsersController:0x00007f4568138e18>
+Did you mean?  follow
+               followers):
+  
+app/controllers/api/v1/users_controller.rb:33:in `show_current_user_followings'
+  [1m[36mFollow Load (0.7ms)[0m  [1m[34mSELECT "follows".* FROM "follows" ORDER BY "follows"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mFollow Load (0.5ms)[0m  [1m[34mSELECT "follows".* FROM "follows" LIMIT $1[0m  [["LIMIT", 11]]
+Started GET "//v1/show/following" for ::1 at 2020-01-03 14:17:03 +0530
+Processing by Api::V1::UsersController#show_current_user_followings as JSON
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:57:in `authenticate_user!'
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "follows"."id" FROM "follows" WHERE "follows"."following_id" = $1[0m  [["following_id", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:32:in `show_current_user_followings'
+  [1m[36mFollow Load (0.2ms)[0m  [1m[34mSELECT "follows".* FROM "follows" WHERE "follows"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:34:in `block in show_current_user_followings'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:35:in `block in show_current_user_followings'
+  [1m[36mFollow Load (0.3ms)[0m  [1m[34mSELECT "follows".* FROM "follows" WHERE "follows"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:34:in `block in show_current_user_followings'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/users_controller.rb:35:in `block in show_current_user_followings'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::JsonApi (0.67ms)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.66ms)
+Completed 200 OK in 78ms (Views: 2.3ms | ActiveRecord: 12.3ms | Allocations: 15217)
+
+
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT $1 OFFSET $2[0m  [["LIMIT", 1], ["OFFSET", 1]]
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT $1 OFFSET $2[0m  [["LIMIT", 1], ["OFFSET", 1]]
+  [1m[35m (30.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "tweets"[0m
+  [1m[36mTweet Load (0.6ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mTweet Create (1.3ms)[0m  [1m[32mINSERT INTO "tweets" ("user_id", "tweet", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 2], ["tweet", "hey hello how are you"], ["created_at", "2020-01-03 08:56:31.289477"], ["updated_at", "2020-01-03 08:56:31.289477"]]
+  [1m[35m (6.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTweet Create (0.9ms)[0m  [1m[32mINSERT INTO "tweets" ("user_id", "tweet", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 2], ["tweet", "what happen dudes jhakd"], ["created_at", "2020-01-03 08:56:55.526384"], ["updated_at", "2020-01-03 08:56:55.526384"]]
+  [1m[35m (19.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mTweet Create (0.9ms)[0m  [1m[32mINSERT INTO "tweets" ("user_id", "tweet", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["user_id", 3], ["tweet", "dfaklfadklhgflhkadjhfadjf"], ["created_at", "2020-01-03 08:57:18.233711"], ["updated_at", "2020-01-03 08:57:18.233711"]]
+  [1m[35m (22.4ms)[0m  [1m[35mCOMMIT[0m
+Started GET "//v1/show/tweets" for ::1 at 2020-01-03 14:28:02 +0530
+Processing by Api::V1::TweetsController#show_tweets as JSON
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:57:in `authenticate_user!'
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "follows"."following_id" FROM "follows" WHERE "follows"."follower_id" = $1[0m  [["follower_id", 1]]
+  ↳ app/controllers/api/v1/tweets_controller.rb:11:in `show_tweets'
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 1.4ms | Allocations: 8678)
+
+
+  
+TypeError (no implicit conversion of Integer into Array):
+  
+app/controllers/api/v1/tweets_controller.rb:12:in `+'
+app/controllers/api/v1/tweets_controller.rb:12:in `show_tweets'
+Started GET "//v1/show/tweets" for ::1 at 2020-01-03 14:28:22 +0530
+Processing by Api::V1::TweetsController#show_tweets as JSON
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:57:in `authenticate_user!'
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "follows"."following_id" FROM "follows" WHERE "follows"."follower_id" = $1[0m  [["follower_id", 1]]
+  ↳ app/controllers/api/v1/tweets_controller.rb:11:in `show_tweets'
+Completed 500 Internal Server Error in 55231ms (ActiveRecord: 9.4ms | Allocations: 16469)
+
+
+  
+TypeError (no implicit conversion of Integer into Array):
+  
+app/controllers/api/v1/tweets_controller.rb:13:in `+'
+app/controllers/api/v1/tweets_controller.rb:13:in `show_tweets'
+Started GET "//v1/show/tweets" for ::1 at 2020-01-03 14:30:46 +0530
+Processing by Api::V1::TweetsController#show_tweets as JSON
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:57:in `authenticate_user!'
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "follows"."following_id" FROM "follows" WHERE "follows"."follower_id" = $1[0m  [["follower_id", 1]]
+  ↳ app/controllers/api/v1/tweets_controller.rb:11:in `show_tweets'
+  [1m[36mTweet Load (1.0ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" WHERE "tweets"."user_id" IN ($1, $2, $3, $4)[0m  [["user_id", 2], ["user_id", 3], ["user_id", 3], ["user_id", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:15:in `block (2 levels) in <class:ApiController>'
+[active_model_serializers]   [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/api/v1/api_controller.rb:28:in `block (2 levels) in <class:ApiController>'
+[active_model_serializers]   [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/api/v1/api_controller.rb:28:in `block (2 levels) in <class:ApiController>'
+[active_model_serializers]   [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/api/v1/api_controller.rb:28:in `block (2 levels) in <class:ApiController>'
+[active_model_serializers]   [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/api/v1/api_controller.rb:28:in `block (2 levels) in <class:ApiController>'
+[active_model_serializers]   [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/api/v1/api_controller.rb:28:in `block (2 levels) in <class:ApiController>'
+[active_model_serializers]   [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/api/v1/api_controller.rb:28:in `block (2 levels) in <class:ApiController>'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::JsonApi (23.15ms)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (38.13ms)
+Completed 200 OK in 84ms (Views: 37.6ms | ActiveRecord: 14.8ms | Allocations: 25191)
+
+
+Started GET "//v1/show/tweets" for ::1 at 2020-01-03 14:32:52 +0530
+Processing by Api::V1::TweetsController#show_tweets as JSON
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:57:in `authenticate_user!'
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "follows"."following_id" FROM "follows" WHERE "follows"."follower_id" = $1[0m  [["follower_id", 1]]
+  ↳ app/controllers/api/v1/tweets_controller.rb:11:in `show_tweets'
+  [1m[36mTweet Load (65.9ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" WHERE "tweets"."user_id" IN ($1, $2, $3, $4) ORDER BY created_at DESC[0m  [["user_id", 2], ["user_id", 3], ["user_id", 3], ["user_id", 1]]
+  ↳ app/controllers/api/v1/api_controller.rb:15:in `block (2 levels) in <class:ApiController>'
+[active_model_serializers]   [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/api/v1/api_controller.rb:28:in `block (2 levels) in <class:ApiController>'
+[active_model_serializers]   [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/api/v1/api_controller.rb:28:in `block (2 levels) in <class:ApiController>'
+[active_model_serializers]   [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/api/v1/api_controller.rb:28:in `block (2 levels) in <class:ApiController>'
+[active_model_serializers]   [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/api/v1/api_controller.rb:28:in `block (2 levels) in <class:ApiController>'
+[active_model_serializers]   [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/api/v1/api_controller.rb:28:in `block (2 levels) in <class:ApiController>'
+[active_model_serializers]   [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+[active_model_serializers]   ↳ app/controllers/api/v1/api_controller.rb:28:in `block (2 levels) in <class:ApiController>'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::JsonApi (26.34ms)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (28.19ms)
+Completed 200 OK in 140ms (Views: 28.6ms | ActiveRecord: 77.9ms | Allocations: 25147)
+
+
